@@ -1,0 +1,78 @@
+*
+{
+    margin: 0 ;
+    padding: 0;
+}
+.container-fluid
+{
+    background-color: rgb(3, 3, 49) ;
+    height: auto;
+}
+.abt
+{
+    font-weight: 500;
+    /* font-size: 45px; */
+    color: white;
+    font-family: 'Protest Strike', sans-serif;
+}
+.eduhead
+{
+    color: white;
+    font-weight: 700;
+    font-family: 'Protest Strike', sans-serif;
+}
+.edudetail
+{
+    border: 2px solid rgb(73, 184, 253);
+    width: 90%;
+    padding: 15px;
+   border-radius: 10px;
+    margin: 0 auto;
+    transition: ease all .5s;
+}
+.edudetail:hover
+{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.iconss
+{
+    color: rgb(73, 184, 253) !important;
+}
+.eduinfo{
+    font-weight: 700;
+}
+.edudetail>a , p , i{
+    text-decoration: none;
+    color: white;
+}
+
+
+nav{
+    background-color: rgb(3, 3, 49) ;
+}
+#collapsebtn
+{
+    border: 2px solid white;
+}
+.navbar-toggler-icon
+{
+    color: white !important;
+}
+
+.navbar-brand
+{
+    color: white !important;
+    font-weight: 500 !important;
+    font-size: 28px !important;
+    font-family: 'Protest Strike', sans-serif;
+}
+.nav-link
+{
+    color: white !important;
+    font-weight: 500;
+}
+.nav-link:hover
+{
+    color: rgb(69, 69, 249) !important;
+}

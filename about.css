@@ -1,0 +1,162 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid
+{
+    background-color: rgb(3, 3, 49) ;
+    height: 89vh;
+    
+}
+.abt
+{
+    font-weight: 500;
+    /* font-size: 45px; */
+    color: white;
+    font-family: 'Protest Strike', sans-serif;
+}
+.imgborder
+{
+   
+    border-top: 2px solid rgb(73, 184, 253) !important;
+    border-bottom: 2px solid rgb(73, 184, 253) !important;
+    /* padding: 10px; */
+    /* border: 2px solid white; */
+    border-radius: 50%;
+    width: 18vw;
+    animation: roundd  7s linear infinite;
+}
+@keyframes roundd
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+
+.imgborder > img
+{
+    border: 1px solid white;
+    width: 14vw;
+    height: 30vh;
+}
+.abthead
+{
+    font-family: 'Protest Strike', sans-serif;
+}
+.abtcnt
+{
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 19px;
+}
+
+
+
+@media (max-width:929px)
+{
+    .imgborder > img
+    {
+        width: 13vw;
+        height: 23vh;
+    }
+    .imgborder
+    {
+        width: 18vw;
+    }
+   
+}
+@media (max-width:745px)
+{
+    .imgborder > img
+    {
+        width: 14vw;
+        height: 19vh;
+    }
+    .imgborder
+    {
+        width: 19vw;
+        /* height: 26vh; */
+    }
+}
+@media (max-width:650px)
+{
+    .imgborder > img
+    {
+        width: 19vw;
+        /* height: 15vh; */
+    }
+    .imgborder
+    {
+        width: 27vw;
+    }
+}
+@media (max-width:447px)
+{
+    .imgborder > img
+    {
+        width: 23vw;
+        
+    }
+    .imgborder
+    {
+        width: 36vw;
+    }
+    .container-fluid
+    {
+        height: 92vh;
+    }
+}
+@media (max-width:329px)
+{
+    .imgborder > img
+    {
+        width: 28vw;
+        
+    }
+    .imgborder
+    {
+        width: 43vw;
+    }
+    .container-fluid
+    {
+        height: 120vh;
+    }
+}
+
+
+
+
+
+nav{
+    background-color: rgb(3, 3, 49) ;
+}
+#collapsebtn
+{
+    border: 2px solid white;
+}
+.navbar-toggler-icon
+{
+    color: white !important;
+}
+
+.navbar-brand
+{
+    color: white !important;
+    font-weight: 500 !important;
+    font-size: 28px !important;
+    font-family: 'Protest Strike', sans-serif;
+}
+.nav-link
+{
+    color: white !important;
+    font-weight: 500;
+}
+.nav-link:hover
+{
+    color: rgb(69, 69, 249) !important;
+}

@@ -1,0 +1,109 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid
+{
+    background-color: rgb(3, 3, 49) ;
+    height: 89vh;
+}
+.abt 
+{
+    font-family: 'Protest Strike', sans-serif;
+    color: white;
+}
+form input
+{
+    background-color: transparent;
+    border: 2px solid rgb(73, 184, 253);
+    border-radius: 5px;
+    padding: 7px;
+    width:23vw;
+    outline: none;
+    /* color: white !important; */
+}
+#msg
+{
+    width: 46vw;
+    padding-bottom: 35vh;
+}
+.sub
+{
+    padding: 6px;
+    width: 8vw;
+    background-color:rgb(73, 184, 253) ;
+    font-weight: 600;
+}
+@media (max-width:1024px)
+{
+    .container-fluid
+    {
+        height: auto;
+    }
+}
+@media (max-width:768px)
+{
+    form input , #msg
+    {
+        width: 80vw;
+    }
+    .container-fluid
+    {
+        height: auto;
+    }
+}
+@media (max-width:790px)
+{
+    .sub
+    {
+        width: 15vw;
+        padding: 3px;
+    }
+}
+@media (max-width:386px)
+{
+    .sub
+    {
+        width: 23vw;
+        padding: 3px;
+    }
+}
+@media (max-width:243px)
+{
+    .sub
+    {
+        width: 29vw;
+        padding: 3px;
+    }
+}
+
+
+nav{
+    background-color: rgb(3, 3, 49) ;
+}
+#collapsebtn
+{
+    border: 2px solid white;
+}
+.navbar-toggler-icon
+{
+    color: white !important;
+}
+
+.navbar-brand
+{
+    color: white !important;
+    font-weight: 500 !important;
+    font-size: 28px !important;
+    font-family: 'Protest Strike', sans-serif;
+}
+.nav-link
+{
+    color: white !important;
+    font-weight: 500;
+}
+.nav-link:hover
+{
+    color: rgb(69, 69, 249) !important;
+}

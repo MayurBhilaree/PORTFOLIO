@@ -1,0 +1,155 @@
+*
+{
+    margin: 0 ;
+    padding: 0;
+}
+.container-fluid
+{
+    background-color: rgb(3, 3, 49) ;
+    height: 89vh;
+}
+.abt
+{
+    font-weight: 500;
+    /* font-size: 45px; */
+    color: white;
+    font-family: 'Protest Strike', sans-serif;
+}
+.eduhead  
+{
+    color: white;
+    font-weight: 700;
+    font-family: 'Protest Strike', sans-serif;
+}
+.skilldetail
+{
+    border: 2px solid rgb(73, 184, 253);
+    /* height: 30vh; */
+    padding: 12px;
+    width: 48vw;
+    border-radius: 10px;
+   
+    
+}
+.skilss
+{
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 46%;
+    margin: 13px;
+    font-weight: 600;
+    font-size: 19px;
+    text-decoration: none !important;
+    color: white !important;
+    /* filter: drop-shadow(0px 0px 10px rgb(73, 184, 253)); */
+}
+.skilss:hover
+{
+    filter: drop-shadow(0px 0px 8px rgb(73, 184, 253));
+    cursor: grab;
+}
+.profskil
+{
+    color: white;
+    font-weight: 500;
+    margin: 6px;
+    font-size: 17px;
+}
+
+@media (max-width:992px)
+{
+    .skilldetail
+    {
+        width: 80vw;
+    }
+    .container-fluid
+    {
+        height: auto;
+    }
+}
+@media (max-width:689px)
+{
+    .skilss{
+        padding: 8px;
+        border: 1px solid white;
+        border-radius: 46%;
+        margin:5px;
+        font-weight: 600;
+        font-size: 14px;
+        text-decoration: none;
+        color: white;
+    }
+}
+@media (max-width:594px)
+{
+    .skilss{
+        padding: 6px;
+    border: 1px solid white;
+    border-radius: 46%;
+    margin: 4px;
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    }
+}
+@media (max-width:417px)
+{
+    .skilss{
+        padding: 6px;
+    border: 1px solid white;
+    border-radius: 46%;
+    margin: 2px;
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    }
+}
+@media (max-width:417px)
+{
+    .skilss{
+        padding: 4px;
+    border: 1px solid white;
+    border-radius: 46%;
+    margin: 0px;
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    }
+}
+
+
+
+
+
+
+nav{
+    background-color: rgb(3, 3, 49) ;
+}
+#collapsebtn
+{
+    border: 2px solid white;
+}
+.navbar-toggler-icon
+{
+    color: white !important;
+}
+
+.navbar-brand
+{
+    color: white !important;
+    font-weight: 500 !important;
+    font-size: 28px !important;
+    font-family: 'Protest Strike', sans-serif;
+}
+.nav-link
+{
+    color: white !important;
+    font-weight: 500;
+}
+.nav-link:hover
+{
+    color: rgb(69, 69, 249) !important;
+}

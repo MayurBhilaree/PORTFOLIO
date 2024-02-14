@@ -1,0 +1,175 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    /* height: 100%; */
+}
+.container-fluid
+{
+    background-color: rgb(3, 3, 49) ;
+    height: 89vh;
+}
+.self-info
+{
+    margin: 3%;
+    padding-left: 10%;
+    /* border: 1px solid white; */
+    color: white;
+}
+.self-info h1
+{
+    font-weight: 700;
+}
+.selfinfodiv
+{
+    position: relative;
+    height: 10vh;
+}
+.self-info-heading
+{
+    /* padding-left: 10%; */
+    position: absolute;
+    font-weight: 700;
+    color: rgb(73, 184, 253) !important;
+    margin-left: 14%;
+    /* border: 1px solid white; */
+}
+.intro
+{
+    margin-left: 10%;
+    position: absolute;
+    height: 6vh;
+    padding: 2%;
+    opacity: .6;
+    /* border: 1px solid white; */
+    background-color: rgb(3, 3, 49);
+    animation: slidee  2s linear infinite ;
+    animation-direction: alternate;
+}
+@keyframes slidee
+{
+    0%
+    {
+        width: 0vw;
+        
+        /* display: none; */
+    }
+    
+    100%
+    {
+        width: 70%;
+        /* z-index: 2; */
+        
+    }
+}
+.self-info-description
+{
+    color: white;
+    /* border: 1px solid white; */
+    margin-left:12.5%;
+    font-weight: 700;
+    line-height: 25px;
+    /* padding: 0% 0% 0% 5%; */
+}
+.buttons
+{
+    margin: 5% 0% 2% 12%;
+}
+.cntc{
+    text-decoration: none;
+    padding: 6px;
+    width: 10vw;
+    border: none;
+    background-color:rgb(73, 184, 253) !important ;
+    border-radius: 5px ;
+    font-weight: 600 !important;
+    color: white;
+}
+.iconss
+{
+    color: rgb(73, 184, 253);
+    font-size: 30px;
+    border: 2px solid rgb(73, 184, 253) ;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50%;
+}
+.icn
+{
+    margin: 5% 0% 2% 12%;
+}
+@media(max-width:966px)
+{
+    .container-fluid
+    {
+        height: 100vh;
+    }
+}
+@media(max-width:650px)
+{
+    .cntc
+    {
+        width: 24vw;
+        font-size: 15px;
+    }
+    /* .container-fluid
+    {
+        height: 100vh;
+    } */
+}
+@media(max-width:455px)
+{
+    .container-fluid
+    {
+        height: 100vh;
+    }
+    .self-info-description
+    {
+        line-height: 20px;
+        font-weight: 500;
+    }
+    .cntc
+    {
+        width: 35vw;
+        font-size: 14px;
+    }
+    .iconss
+{
+    color: rgb(73, 184, 253);
+    font-size: 20px;
+    border: 2px solid rgb(73, 184, 253) ;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50%;
+}
+}
+
+nav{
+    background-color: rgb(3, 3, 49) ;
+}
+#collapsebtn
+{
+    border: 2px solid white;
+}
+.navbar-toggler-icon
+{
+    color: white !important;
+}
+
+.navbar-brand
+{
+    color: white !important;
+    font-weight: 500 !important;
+    font-size: 28px !important;
+    font-family: 'Protest Strike', sans-serif;
+}
+.nav-link
+{
+    color: white !important;
+    font-weight: 500;
+}
+.nav-link:hover
+{
+    color: rgb(69, 69, 249) !important;
+}
+
